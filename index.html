@@ -5,9 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/42f85d5f96.js" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Booking Form</h2>
+    <form>
+        <label for="full-name">Full Name:</label> <br>
+        <input type="full-name" id="full-name" required> <br>
+
+        <label for="email">Email:</label> <br>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+
+       <div class="select-addons">
+       <label for="addons" class="addons">Add on Packages</label> <br>
+       <!-- <i class=" fas fa-solid fa-chevron-down select__icon"></i> -->
+        <select name="products" class="addons" id="addons"> <br>
+            <option value="complete-grooming">Complete Grooming</option>
+            <option value="bath-brush">Bath & Brush</option>
+            <option value="nail-trims">Nail Trims</option>
+        </select>
+        </div> 
+        <label for="message">Message</label> <br>
+        <textarea name="message" id="message" placeholder="Enter your message" rows="4"></textarea><br>
+
+        <button type="submit">SEND MESSAGE</button>
+     </div>
+    </form>
+    <div class="container-img">
+        <img class="duck-img" src="images/duck.png" alt="yellow duck">
+    </div>
+
 </body>
 </html>
