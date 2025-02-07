@@ -1,5 +1,5 @@
 body{
-    font-family: roboto;
+    font-family: "Roboto", serif;
     display: flex;
     height: 100vh;
     margin: 0;
@@ -9,7 +9,7 @@ body{
 }
 
 h2 {
-font-family: roboto;
+font-family: "Roboto", serif;
 color: #FEFFFF;
 font-size: 24px;
 font-style: normal;
@@ -28,7 +28,7 @@ label {
     display: block;
     margin-top: 10px;
     color: #FEFFFF;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -44,7 +44,7 @@ input {
     border-bottom: 1px solid #000;
     background-color: #BE0909;
     color: #FDFFFF;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -59,7 +59,7 @@ select {
     border-bottom: 1px solid #000;
     background-color: #BE0909;
     color: #FDFFFF;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -74,7 +74,7 @@ textarea {
     border-bottom: 1px solid #000;
     background-color: #BE0909;
     color: #FDFFFF;
-    font-family: Roboto;
+    font-family: "Roboto", serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -91,6 +91,15 @@ button {
     cursor: pointer;
     background: #468189;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.50);
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
 }
 button:hover {
     background: #c5e2e6;
