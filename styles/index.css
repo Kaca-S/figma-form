@@ -10,12 +10,13 @@ body{
 }
 
 h2 {
-font-family: "Roboto", serif;
-color: #FEFFFF;
-font-size: 24px;
-font-style: normal;
-letter-spacing: 1.8px;
-text-transform: uppercase;
+    font-family: "Roboto", serif;
+    color: #FEFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    cursor: default;
 }
 .container {
     display: flex;
@@ -23,7 +24,6 @@ text-transform: uppercase;
     flex-direction: column;
     background: linear-gradient(to right,#BE0909 0%,#BE0909 70%,#FFB039 30%,#FFB039 100%);
     padding: 20px;
-    /* justify-content: space-between; */
 }
 label {
     display: block;
@@ -68,6 +68,7 @@ select {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 5.4px;
+    cursor: pointer;
 }
 textarea {
     width: 50%;
