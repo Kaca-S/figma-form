@@ -16,17 +16,17 @@
         <h2>Booking Form</h2>
     <form>
         <label for="full-name">Full Name:</label> <br>
-        <input type="full-name" id="full-name" required> <br>
+        <input type="text" id="full-name" required> <br>
 
         <label for="email">Email:</label> <br>
         <input type="email" id="email" placeholder="Your Email" required><br>
 
        <div class="select-addons">
-       <label for="addons" class="addons">Add on Packages</label> <br>
-       <!-- <i class=" fas fa-solid fa-chevron-down select__icon"></i> -->
+       <label for="addons" class="addons">Add on Packages</label>
+       <i class="fa-solid fa-chevron-down"></i> <br>
         <select name="products" class="addons" id="addons"> <br>
             <option value="complete-grooming">Complete Grooming</option>
-            <option value="bath-brush">Bath & Brush</option>
+            <option value="bath-brush" selected>Bath & Brush</option>
             <option value="nail-trims">Nail Trims</option>
         </select>
         </div> 
