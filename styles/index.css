@@ -15,7 +15,7 @@ h2 {
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
     cursor: default;
 }
 .container {
@@ -34,7 +34,7 @@ label {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 input {
@@ -50,7 +50,10 @@ input {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 5.4px; 
+    letter-spacing: 5px; 
+}
+input:hover {
+    background: #ee6767;
 }
 select {
     -webkit-animation: none;
@@ -67,7 +70,7 @@ select {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 5.4px;
+    letter-spacing: 5px;
     cursor: pointer;
 }
 textarea {
@@ -83,7 +86,7 @@ textarea {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 5.4px;
+    letter-spacing: 5px;
 }
 button {
     margin-top: 15px;
@@ -102,7 +105,7 @@ button {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    letter-spacing: 1.8px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 button:hover {
